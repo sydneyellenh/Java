@@ -59,7 +59,7 @@ Here's how the structure of your project will look.
 						
 						Command + /  		comments out text	
 						Command + S  		save
-						Control + Space  	content assist and code completion
+						Control + Space  	content assist and code completion (like if you forget public static void main (string[] arg)
 						Command + Shift + F  format source code
 						Control + Q   		Moves cursor to the last edited position
 						Command + D   		Deletes current line in the editor
@@ -85,7 +85,7 @@ Here's how the structure of your project will look.
 	    		-> DONE: Make a few notes/comments about the limits and possible uses for each one
 	    	_02_operators.java
 	    		-> DONE: Show examples of various math operators(hint, we studied these last week).
-	    		-> TODO: Include examples of shorthand operators.
+	    		-> DONE: Include examples of shorthand operators.
 	    	_03_demo_story.java
 	    		-> TODO: Go to the following url -> https://repl.it/DhOp/1. Copy and paste the code into this file and run it. 
 	    		-> TODO: Read and analyze the code and make sure you understand it. 
@@ -97,15 +97,15 @@ Here's how the structure of your project will look.
 
 	    >_04_Strings
 	    	_01_Strings.java
-	    		-> TODO: Create several unique strings. Learn how to concatenate with Java. 
+	    		-> DONE: Create several unique strings. Learn how to concatenate with Java. 
 	    		-> TODO: Show how to check whether two strings are equal. Hint: It's not == or ===. There is a specific method that you'll use. 
 	    	_02_challenges.java
 	    		-> TODO: Challenges
 	    			 /*  
-			            BRONZE:
+			            BRONZE: DONE
 			                Make three strings, one for your first name, middle name, and last name. Then combine
 			                them into your full name with spaces between each.
-			            SILVER:
+			            SILVER: DONE
 			                Make a String containing the phrase "Soda Can". Then, do a search for subString method
 			                and use it to split the phrase into separate words and store them in strings. Print the two strings.
 			                The console should read: 
