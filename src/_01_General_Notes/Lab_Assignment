@@ -43,17 +43,35 @@ Here's how the structure of your project will look.
 		>_01_General Notes
 			_00_Eclipse_Notes.txt
 				-> TODO: Figure out how to change the background in Eclipse. Put a note in this file that tells how to do it.
+				
+				Eclipse --> Preferences --> General --> Appearance --> Theme (Dropdown menu) --> Apply --> OK
+				
+				
 				-> TODO: Figure out how to see and use a TODO List in Eclipse. Put a note on how to do it.
-				-> TODO: Start figuring out a few common shortcuts and start making a list in this file. 
+				
+				Right click on the marker bar (To the left with all the line numbers) and click "Add task".  
+				A clipboard will pop up with your to-do task.
+				
+				-> DONE: Start figuring out a few common shortcuts and start making a list in this file. 
 						This will be a list you come back to and keep adding shortcuts as you learn them.
 						For instance, how do we get System.out.println to spit out without typing it all out?
-						How about the "main" function for classes?				
-
+						How about the "main" function for classes?	
+						
+						Command + /  		comments out text	
+						Command + S  		save
+						Control + Space  	content assist and code completion
+						Command + Shift + F  format source code
+						Control + Q   		Moves cursor to the last edited position
+						Command + D   		Deletes current line in the editor
+						Command + fn + F11 	Runs the current opened java class if main method exists or else run the last launched application
+						Command + .  		Go to the next problem
+						Command + Shift + .   Go to the previous problem
+					
 /**************************************Be Sure to commit your code********************************/
 		>_02_HelloWorld
 			_01_HelloWorld.java
-				-> TODO: Figure out how to do a Hello World in Eclipse using Java.
-				-> TODO: In that same file, figure out how to print Hello World to the console in a couple ways.
+				-> DONE: Figure out how to do a Hello World in Eclipse using Java.
+				-> DONE: In that same file, figure out how to print Hello World to the console in a couple ways.
 							Example console output:   
 									#1 Hello World
 									#2 Hello ->This will use a different method than #1.
@@ -63,10 +81,10 @@ Here's how the structure of your project will look.
 
 	    >_03_numbers
 	    	_01_numbers.java  
-	    		-> TODO: Create examples of the following Primitive Types: byte, short, int, long, float, double
-	    		-> TODO: Make a few notes/comments about the limits and possible uses for each one
+	    		-> DONE: Create examples of the following Primitive Types: byte, short, int, long, float, double
+	    		-> DONE: Make a few notes/comments about the limits and possible uses for each one
 	    	_02_operators.java
-	    		-> TODO: Show examples of various math operators(hint, we studied these last week).
+	    		-> DONE: Show examples of various math operators(hint, we studied these last week).
 	    		-> TODO: Include examples of shorthand operators.
 	    	_03_demo_story.java
 	    		-> TODO: Go to the following url -> https://repl.it/DhOp/1. Copy and paste the code into this file and run it. 
