@@ -1,10 +1,20 @@
 package _02_Hello_World;
 
+import _17_Encapsulation.ColtsPlayers;
+
 public class Test {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Test");
+
+		ColtsPlayers luck = new ColtsPlayers();
+		luck.name = "Andrew Luck";
+		luck.setNumber(48);
+		luck.getNumber();
+		System.out.println(luck.getNumber());
+		System.out.println(luck.name);
+		
+		
+		
 	}
 
 }
